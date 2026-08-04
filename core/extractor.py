@@ -84,7 +84,7 @@ def extract_key_decisions(transcript: str) -> str:
 
 
 def extract_questions(transcript: str) -> str:
-    
+
     map_prompt = (
         "From this portion of the meeting transcript, extract all unresolved questions "
         "or topics needing follow-up. Format as a numbered list. "
